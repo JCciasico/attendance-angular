@@ -2,3 +2,15 @@ h1{
     text-align: center;
     color: #57606f;
 }
+.timeBody{
+    width: 400px;
+    padding: 1rem;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+   border-radius: 15px;
+   background-color: #dfe4ea;
+
+}
