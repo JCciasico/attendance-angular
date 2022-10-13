@@ -2,6 +2,12 @@ h1{
     text-align: center;
     color: #57606f;
 }
+.center{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .timeBody{
     width: 400px;
     padding: 1rem;
@@ -12,5 +18,4 @@ h1{
    4px 4px 5px 0px #0001;
    border-radius: 15px;
    background-color: #dfe4ea;
-
 }
