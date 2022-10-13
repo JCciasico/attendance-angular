@@ -16,6 +16,12 @@ export class ClockDigComponent implements OnInit {
   public ampm: any;
   public day: any;
 
+  isDisabled = false;
+
+  showBtn = {
+    isShowBtn : false,
+  }
+
   constructor() { }
 
   ngOnInit(): void {
@@ -43,6 +49,10 @@ export class ClockDigComponent implements OnInit {
 
     const seconds = date.getSeconds();
     this.second = seconds < 10 ? '0' + seconds : seconds.toString();
+  }
+
+  changeText(){
+    this.isDisabled = !this.isDisabled;
   }
 
 }

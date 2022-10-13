@@ -48,7 +48,7 @@
     font-weight: bold;
     font-family: digital-clock-font;
 }
-.time-btn{
+.time-btn-in, .time-btn-out{
     width: 200px;
     padding: 20px 0px 20px 0px;
     background: #dde1e7;
@@ -66,7 +66,7 @@
     color: #57606f;
     margin-top: -10px;
 }
-.time-btn:active{
+.time-btn-in:active,.time-btn-out:active{
     box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
                 -4px -4px 6px 0 rgba(116, 125, 136, .2), 
       inset -4px -4px 6px 0 rgba(255,255,255,.5),
