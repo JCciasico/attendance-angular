@@ -50,7 +50,7 @@
 }
 .time-btn{
     width: 200px;
-    padding: 20px 0px;
+    padding: 20px 0px 20px 0px;
     background: #dde1e7;
     border-radius: 6px;
     box-shadow:
@@ -64,6 +64,7 @@
     font-family: 'sans-serif';
     font-size: 15px;
     color: #57606f;
+    margin-top: -10px;
 }
 .time-btn:active{
     box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
@@ -81,7 +82,7 @@
     min-width: 300px;
     max-width: 300px;
     min-height: 100px;
-    max-height: 150px;
+    max-height: 100px;
     font-size: 15px;
     padding: 1rem;
     border-radius: 10px;
@@ -92,5 +93,18 @@
     inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
     outline: none;
     overflow: auto;
+}
+.selfie{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: -35px;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+   border-radius: 50px;
 }
   
